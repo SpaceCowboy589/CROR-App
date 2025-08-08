@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "CROR Signals — Official (sample)",
+    "description": "Signal groups and indications derived from Transport Canada CROR 'General description and location of fixed signals' and related signal pages. Source: Transport Canada."
+  },
+  "groups": [
+    {"id":"g1","name":"Block & Interlocking Signals"},
+    {"id":"g2","name":"Protection of Track / Track Work Signals"},
+    {"id":"g3","name":"Advance & Approach Signals"},
+    {"id":"g4","name":"Speed-related Indications"},
+    {"id":"g5","name":"Stop / Restricting & Special Signs"}
+  ],
+  "cards": [
+    {"id":"s-clear","group":"g1","name":"Clear","short":"Proceed at track speed — next signal clear.","definition":"Proceed at track speed. No restriction at next signal."},
+    {"id":"s-419a","group":"g4","name":"419A — Limited to Diverging","short":"Proceed at LIMITED; next signal DIVERGING.","definition":"Proceed at LIMITED speed passing the signal and through turnouts; approach next signal at DIVERGING speed."},
+    {"id":"s-420","group":"g4","name":"420 — Limited to Restricting","short":"Proceed limited; next signal restricting.","definition":"Proceed at LIMITED speed; next signal is displaying RESTRICTING."},
+    {"id":"s-423","group":"g3","name":"423 — Medium to Limited","short":"Proceed MEDIUM; approach next at LIMITED.","definition":"Proceed at MEDIUM speed; approach next signal at LIMITED speed."},
+    {"id":"s-425","group":"g3","name":"425 — Medium to Slow","short":"Proceed MEDIUM; approach next at SLOW.","definition":"Proceed at MEDIUM speed; approach the next signal at SLOW speed."},
+    {"id":"s-limited","group":"g4","name":"Limited","short":"Proceed at LIMITED speed.","definition":"Proceed at LIMITED speed passing the signal and through turnouts; CROR defines the numeric limits for LIMITED speed."},
+    {"id":"s-medium","group":"g4","name":"Medium","short":"Proceed at MEDIUM speed.","definition":"Proceed at MEDIUM speed; used with combinations to describe approach/next-signal speed."},
+    {"id":"s-restricting","group":"g5","name":"Restricting","short":"Proceed at RESTRICTING speed.","definition":"Proceed at RESTRICTING speed: be able to stop within half the range of vision and expect to encounter obstacles or misaligned switches."},
+    {"id":"s-stop","group":"g5","name":"Stop","short":"Stop at signal.","definition":"Stop at the signal. Absolute stop indication; follow CROR rule for passing absolute signals."},
+    {"id":"s-advance-clear-medium","group":"g3","name":"Advance Clear to Medium","short":"Advance indication — proceed; second signal medium.","definition":"An advance indication that tells you the second signal will display a MEDIUM indication; adjust speed and be prepared for that condition."},
+    {"id":"s-advance-clear-stop","group":"g3","name":"Advance Clear to Stop","short":"Approach — prepare to stop at second signal.","definition":"Advance indication where the second signal will require stopping; proceed accordingly and be prepared to stop at the second signal."}
+  ]
+}
