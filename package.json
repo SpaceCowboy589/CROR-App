@@ -9,12 +9,12 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "54.0.0-canary-20250729-d8899ae",
-    "expo-status-bar": "~2.0.0",
+    "expo": "~53.0.20",
+    "expo-status-bar": "~1.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.76.3",
-    "react-native-web": "~0.19.10"
+    "react-native": "0.68.2",
+    "react-native-web": "~0.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
